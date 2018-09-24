@@ -3212,6 +3212,11 @@ get-caller-file@^1.0.1:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
   integrity sha512-3t6rVToeoZfYSGd8YoLFR2DJkiQrIiUrGcjvFX2mDw3bn6k2OtwHN0TNCLbBO+w8qTvimhDkv+LSscbJY1vE6w==
 
+get-port@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/get-port/-/get-port-4.0.0.tgz#373c85960138ee20027c070e3cb08019fea29816"
+  integrity sha512-Yy3yNI2oShgbaWg4cmPhWjkZfktEvpKI09aDX4PZzNtlU9obuYrX7x2mumQsrNxlF+Ls7OtMQW/u+X4s896bOQ==
+
 get-stdin@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
@@ -5284,6 +5289,13 @@ node-fetch@1.6.3:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
+node-git-server@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/node-git-server/-/node-git-server-0.4.3.tgz#02aa7231e7766a609392a77ca31d7c4ede9fd04e"
+  integrity sha512-Q+Z8ef4Tw4ZP738iDr9ofPNq4M0fDdQ6/73Ak8SZRCtSsiXXHBgaja8BD/+krUYH7Df0QicsuLyT/mTmElRu7A==
+  dependencies:
+    through "^2.3.8"
+
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -7087,7 +7099,7 @@ through2@2.X, through2@^2.0.0, through2@^2.0.1, through2@^2.0.3, through2@~2.0.0
     readable-stream "^2.1.5"
     xtend "~4.0.1"
 
-through@^2.3.6:
+through@^2.3.6, through@^2.3.8:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
